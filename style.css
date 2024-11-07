@@ -1,0 +1,424 @@
+/* css starts here....................................... */
+body{
+    font-size: 1.25rem;
+    background-color: #3bd4d4;
+}
+.headerLogo{ 
+    /* ratio:63:25 */
+    width: 110px;
+    height: 44px;
+    position: absolute;
+    z-index: 2;   
+} 
+.hi{
+    font-size: 6.5rem;
+}
+.nav{
+    z-index: 1;
+}
+.header-buttons{
+    z-index: 1;
+}
+.hire-me{
+    position: absolute;
+    z-index: 1;
+}
+.bg-img-cover{
+background-image: url(content\ two\ bg2.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+/* height: 600px; */
+text-align: center;
+margin-top: 20px;
+padding-top: 100px;
+display: flex;
+flex-direction: column;
+}
+.skills{
+font-size: 5rem;
+font-weight: 800;
+}
+.skill-box-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.skill-box{
+    padding: 10px 20px ;
+    font-weight: 500;
+    border: 2px solid black;
+    width: max-content;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.carousal-container{
+display: flex;
+gap:40px;
+align-items: center;
+height: 200px;
+width: 100%;
+position: relative;
+/* animation: logo-carousal 15s infinite linear reverse; */
+margin-top: 40px;
+margin-bottom: 60px;
+}
+.carousal.logo{
+height: 100px;
+width: 100px;
+}
+.carousal.line{
+    height: 50px;
+}
+.carousal.express{
+    height: 60px;
+}
+.carousal.nextjs{
+    height: 20px;
+}
+
+
+#three{
+    background: #342f37fa;
+    text-align: center;
+    padding: 100px;
+}
+.three-text{
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: black;
+}
+.card-img-top{
+height: 60%;
+width: 350px;
+border-radius: 15px;
+align-self: center;
+}
+.card{
+    height: 300px;
+    padding-top: 1%;
+    margin-top: 5%;
+}
+
+#four{
+    background-color: #CDC1FF;
+    text-align: center;
+    padding: 100px;
+}
+.four-text{
+    font-size: 5rem;
+}
+.card-img-logo{
+    height: 30%;
+    width: 376px;
+    padding-top: 1%;
+    align-self: center;
+}
+
+
+#five{
+    background-color: #001F3F;
+    padding: 100px;
+}
+.five-text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 5rem;
+    color: black;
+}
+
+
+#six{
+    background: #FFF8E3;
+    /* display: flex; */
+    padding: 80px 20px;
+}
+.hearts{
+    height: 200px;
+    padding: 0px 30px;
+    float: left;
+}
+.six-container{
+    margin-top: 20px;
+}
+.social-logo-container{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+}
+.social-logo-container>a{
+    height: 50px;
+}
+
+
+
+
+
+/* css end here............................................................................................. */
+/* animation starts here....................... */
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.area{
+    background:#3bd4d4;  
+    background: -webkit-linear-gradient(to left,#50a3a2 0%, #53e3a6);  
+    width: 100%;
+    height:100vh;
+    z-index: 1;
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    z-index: 0;
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    75%{
+        opacity: 0.75;
+        border-radius: 50%;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 770px ) and ( min-width:425px){
+
+body{
+    font-size: 1rem;
+}
+
+.Email-button{
+    display: none;
+}
+.hi{
+font-size: 3rem;
+}
+.bg-img-cover{
+    margin-top: 100px;
+}
+.skills{
+    font-size: 70px;
+}
+.skill-box-container{
+    gap: 0.1%;
+}
+.skill-box{
+    width: 200px;
+    padding: 0.5%;
+}
+.three-text{
+    font-size: 50px;
+}
+.card-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.four-text{
+    font-size: 70px;
+}
+.five-text{
+    font-size: 70px;
+}
+.hearts{
+height: 200px;
+}
+.six-container>p{
+    font-size: 15px;
+}
+.social-logo-container img{
+    height: 50px;
+}
+}
+
+
+@media screen and (max-width: 424px ){
+    body{
+    font-size: 1rem;
+    }
+    .contain-head{
+       padding: 0 !important;
+    }
+    .Email-button{
+        display: none;
+    }
+    .hi{
+    font-size: 30px;
+    }
+    .header-text{
+        font-size: 22px;
+    }
+    .hire-me{
+        font-size: 10px;
+        height: 40px;
+    }
+    .bg-img-cover{
+        margin-top: 0px;
+    }
+    .skills{
+        font-size: 50px;
+    }
+    .skill-box-container{
+        gap: 0;
+    }
+    .skill-box{
+        border: 1px solid;
+        padding:0;
+        font-size: 11px;
+        width: 106px;
+    }
+    #three{
+        text-align: left;
+    }
+    .three-text{
+        font-size: 30px;
+    }
+    .card-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .four-text{
+        font-size: 50px;
+    }
+    .five-text{
+        font-size: 50px;
+    }
+    .hearts{
+    height: 200px;
+    }
+    .six-container>p{
+        font-size: 15px;
+    }
+    .social-logo-container img{
+        height: 50px;
+    }
+    .area{
+        width: 375px;
+    }
+    }
+
+    @media screen and (max-height: 611px ){
+        .contain-head{
+            padding:0 !important;
+        }
+        .hi{
+            font-size: 3rem;
+        }
+    }
+    
