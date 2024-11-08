@@ -413,7 +413,7 @@ height: 200px;
     }
     }
 
-    @media screen and (max-height: 611px ){
+/*     @media screen and (max-height: 611px ){
         .contain-head{
             padding:0 !important;
         }
@@ -421,4 +421,4 @@ height: 200px;
             font-size: 3rem;
         }
     }
-    
+     */
